@@ -5,7 +5,7 @@
 This is a version of Caesar Cipher, powered by ruby and displayed in Terminal.
 The concept is simple, it is a type of substitution cipher in which each character is replaced by a another character some fixed number of positions down the American Standard Code for Information Interchange (ASCII).
 
-## Tic-Tac-Toe for Dummies
+## Caesar Cipher by petumazo for Dummies
 
 This is a handbook of this cipher and usage, so that you don't get lost.
 
