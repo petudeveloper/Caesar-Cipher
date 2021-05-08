@@ -17,7 +17,7 @@ until repeat
     num = gets.chomp.to_i
     puts 'After making a complex cipher process, this is the result:'
     caesar_cipher(str, num)
-    clear
+    puts
     puts 'If you want to cipher or decipher again please type ´again´'
     again = gets.chomp
     repeat = again != 'again'
@@ -28,11 +28,12 @@ until repeat
     num = gets.chomp.to_i
     puts 'After making a complex decipher process, this is the result:'
     caesar_decipher(str, num)
-    clear
+    puts
     puts 'If you want to cipher or decipher again please type ´again´'
     again = gets.chomp
     repeat = again != 'again'
   else
     repeat = false
   end
+  clear
 end
