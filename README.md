@@ -17,7 +17,7 @@ Later you will need to type a number that will help you code/decode your text.
 
 Then console will return your text coded or decoded.
 
-Finally, you will have to type again if you want to cipher or decipher again.
+Finally, you will have to type ```again``` if you want to cipher or decipher again.
 
 Easy, right?
 
