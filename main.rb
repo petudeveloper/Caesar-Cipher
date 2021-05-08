@@ -1,8 +1,9 @@
 require_relative './lib/cipher_logic'
+require_relative './lib/clear'
 
+puts 'Welcome to Caesar-Cipher by petumazo'
 puts
-puts 'Welcome to Caesar Cipher by petumazo'
-puts
+
 repeat = false
 
 until repeat
@@ -15,7 +16,7 @@ until repeat
         num = gets.chomp.to_i
         puts "After making a complex cipher process, this is the result:" 
         caesar_cipher(str,num)
-        puts
+        clear
         puts 'If you want to cipher or decipher again please type ´again´'
         again = gets.chomp
         again == 'again' ? repeat = false : repeat = true
@@ -26,7 +27,7 @@ until repeat
         num = gets.chomp.to_i
         puts "After making a complex decipher process, this is the result:"
         caesar_decipher(str,num)
-        puts
+        clear
         puts 'If you want to cipher or decipher again please type ´again´'
         again = gets.chomp
         again == 'again' ? repeat = false : repeat = true
